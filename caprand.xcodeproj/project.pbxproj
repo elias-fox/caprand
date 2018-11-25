@@ -23,7 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		6494A86621A9ECCA0010F106 /* trand */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = trand; sourceTree = BUILT_PRODUCTS_DIR; };
+		6494A86621A9ECCA0010F106 /* caprand */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = caprand; sourceTree = BUILT_PRODUCTS_DIR; };
 		6494A86921A9ECCA0010F106 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -41,7 +41,7 @@
 		6494A85D21A9ECCA0010F106 = {
 			isa = PBXGroup;
 			children = (
-				6494A86821A9ECCA0010F106 /* trand */,
+				6494A86821A9ECCA0010F106 /* caprand */,
 				6494A86721A9ECCA0010F106 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,25 +49,25 @@
 		6494A86721A9ECCA0010F106 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6494A86621A9ECCA0010F106 /* trand */,
+				6494A86621A9ECCA0010F106 /* caprand */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6494A86821A9ECCA0010F106 /* trand */ = {
+		6494A86821A9ECCA0010F106 /* caprand */ = {
 			isa = PBXGroup;
 			children = (
 				6494A86921A9ECCA0010F106 /* main.swift */,
 			);
-			path = trand;
+			path = caprand;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6494A86521A9ECCA0010F106 /* trand */ = {
+		6494A86521A9ECCA0010F106 /* caprand */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6494A86D21A9ECCA0010F106 /* Build configuration list for PBXNativeTarget "trand" */;
+			buildConfigurationList = 6494A86D21A9ECCA0010F106 /* Build configuration list for PBXNativeTarget "caprand" */;
 			buildPhases = (
 				6494A86221A9ECCA0010F106 /* Sources */,
 				6494A86321A9ECCA0010F106 /* Frameworks */,
@@ -77,9 +77,9 @@
 			);
 			dependencies = (
 			);
-			name = trand;
+			name = caprand;
 			productName = trand;
-			productReference = 6494A86621A9ECCA0010F106 /* trand */;
+			productReference = 6494A86621A9ECCA0010F106 /* caprand */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -97,7 +97,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6494A86121A9ECCA0010F106 /* Build configuration list for PBXProject "trand" */;
+			buildConfigurationList = 6494A86121A9ECCA0010F106 /* Build configuration list for PBXProject "caprand" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -109,7 +109,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6494A86521A9ECCA0010F106 /* trand */,
+				6494A86521A9ECCA0010F106 /* caprand */,
 			);
 		};
 /* End PBXProject section */
@@ -264,7 +264,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6494A86121A9ECCA0010F106 /* Build configuration list for PBXProject "trand" */ = {
+		6494A86121A9ECCA0010F106 /* Build configuration list for PBXProject "caprand" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6494A86B21A9ECCA0010F106 /* Debug */,
@@ -273,7 +273,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6494A86D21A9ECCA0010F106 /* Build configuration list for PBXNativeTarget "trand" */ = {
+		6494A86D21A9ECCA0010F106 /* Build configuration list for PBXNativeTarget "caprand" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6494A86E21A9ECCA0010F106 /* Debug */,
