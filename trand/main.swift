@@ -8,5 +8,8 @@
 
 import Foundation
 
-print("Hello, World!")
-
+if CommandLine.arguments.count > 0 {
+    for i in 1..<CommandLine.arguments.count {
+        print(CommandLine.arguments[i])
+    }
+}
