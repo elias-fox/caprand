@@ -11,13 +11,14 @@ import Foundation
 var MessageList = [String]()
 var TransformedList = [String]()
 
-while let line = readLine() {
-    MessageList.append(line.lowercased())
-}
-
-if CommandLine.arguments.count > 0 {
+if CommandLine.arguments.count > 1 {
     for i in 1..<CommandLine.arguments.count {
         MessageList.append(CommandLine.arguments[i].lowercased())
+    }
+}
+else {
+    while let line = readLine() {
+        MessageList.append(line.lowercased())
     }
 }
 
